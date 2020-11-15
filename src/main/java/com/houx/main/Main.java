@@ -25,4 +25,6 @@ public class Main {
         System.out.println(juiceMaker2.makeJuice());
         ctx.close();
     }
+
+
 }
