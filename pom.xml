@@ -19,7 +19,10 @@
             </plugin>
         </plugins>
     </build>
-    <packaging>war</packaging>
+    <modules>
+        <module>../Spring_AOP</module>
+    </modules>
+    <packaging>pom</packaging>
 
   <dependencies>
 
