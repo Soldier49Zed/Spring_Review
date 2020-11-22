@@ -1,4 +1,4 @@
-package com.houx.main;
+package com.houx.aop_test.main;
 
 import com.houx.annotation.config.ApplicationConfig;
 import com.houx.annotation.pojo.PojoConfig;

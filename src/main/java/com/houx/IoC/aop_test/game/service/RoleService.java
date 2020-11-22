@@ -1,6 +1,6 @@
-package com.houx.game.service;
+package com.houx.aop_test.game.service;
 
-import com.houx.game.pojo.Role;
+import com.houx.aop_test.game.pojo.Role;
 
 /**
  * @Author: HouX

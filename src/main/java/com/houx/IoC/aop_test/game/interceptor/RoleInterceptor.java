@@ -1,7 +1,7 @@
-package com.houx.game.interceptor;
+package com.houx.aop_test.game.interceptor;
 
 
-import com.houx.game.Interceptor;
+import com.houx.aop_test.game.Interceptor;
 
 /**
  * @Author: HouX

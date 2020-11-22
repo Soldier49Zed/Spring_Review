@@ -4,18 +4,18 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
     <!--BeanPostProcessor定义 -->
-    <bean id="beanPostProcessor" class="com.houx.bean.BeanPostProcessorImpl"/>
+    <bean id="beanPostProcessor" class="com.houx.IoC.bean.BeanPostProcessorImpl"/>
 
     <!--DisposableBean定义 -->
-    <!--<bean id="disposableBean" class="com.houx.bean.DisposableBeanImpl" />-->
+    <!--<bean id="disposableBean" class="com.houx.IoC.bean.DisposableBeanImpl" />-->
 
-    <bean id="source" class="com.houx.pojo.Source">
+    <bean id="source" class="com.houx.IoC.pojo.Source">
         <property name="fruit" value="橙汁"/>
         <property name="sugar" value="少糖"/>
         <property name="size" value="大杯"/>
     </bean>
 
-    <bean id="juiceMaker2" class="com.houx.pojo.JuiceMaker2"
+    <bean id="juiceMaker2" class="com.houx.IoC.pojo.JuiceMaker2"
           init-method="init" destroy-method="myDestroy">
         <property name="beverageShop" value="贡茶"/>
         <property name="source" ref="source"/>
@@ -23,14 +23,14 @@
 
 
     <!--利用有参构造去创建对象, index的值表示参数的位置, value表示设置值-->
-    <!--<bean id="role" class="com.houx.pojo.Role">-->
+    <!--<bean id="role" class="com.houx.IoC.pojo.Role">-->
     <!--<constructor-arg index="0" value="总经理"/>-->
     <!--<constructor-arg index="1" value="公司管理者"/>-->
     <!--</bean>-->
 
 
     <!--利用无参构造去创建对象，采用setter注入配置的值-->
-    <bean id="role" class="com.houx.pojo.Role">
+    <bean id="role" class="com.houx.IoC.pojo.Role">
         <property name="roleName" value="高级工程师"/>
         <property name="note" value="重要人员"/>
     </bean>
@@ -38,14 +38,14 @@
     <!--通过XML配置装配Bean-->
 
     <!--  1. 装配简易值-->
-    <bean id="role0" class="com.houx.pojo.Role">
+    <bean id="role0" class="com.houx.IoC.pojo.Role">
         <property name="id" value="1"/>
         <property name="roleName" value="高级工程师"/>
         <property name="note" value="重要人员"/>
     </bean>
 
     <!--  2. 装配集合-->
-    <bean id="complexAssembly" class="com.houx.pojo.ComplexAssembly">
+    <bean id="complexAssembly" class="com.houx.IoC.pojo.ComplexAssembly">
         <property name="id" value="1"/>
 
         <property name="list">
@@ -91,32 +91,32 @@
     </bean>
 
     <!--配置用户角色-->
-    <bean id="role1" class="com.houx.pojo.Role">
+    <bean id="role1" class="com.houx.IoC.pojo.Role">
         <property name="id" value="1"/>
         <property name="roleName" value="role_name_2"/>
         <property name="note" value="role_note_1"/>
     </bean>
 
-    <bean id="role2" class="com.houx.pojo.Role">
+    <bean id="role2" class="com.houx.IoC.pojo.Role">
         <property name="id" value="2"/>
         <property name="roleName" value="role_name_2"/>
         <property name="note" value="role_note_2"/>
     </bean>
 
-    <bean id="user1" class="com.houx.pojo.User">
+    <bean id="user1" class="com.houx.IoC.pojo.User">
         <property name="id" value="1"/>
         <property name="userName" value="user_name_1"/>
         <property name="note" value="role_note_1"/>
     </bean>
 
-    <bean id="user2" class="com.houx.pojo.User">
+    <bean id="user2" class="com.houx.IoC.pojo.User">
         <property name="id" value="2"/>
         <property name="userName" value="role_name_2"/>
         <property name="note" value="role_note_1"/>
     </bean>
 
 
-    <bean id="userRoleAssembly" class="com.houx.pojo.UserRoleAssembly">
+    <bean id="userRoleAssembly" class="com.houx.IoC.pojo.UserRoleAssembly">
         <property name="id" value="1"/>
         <property name="list">
             <list>

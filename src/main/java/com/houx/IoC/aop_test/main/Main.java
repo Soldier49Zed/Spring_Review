@@ -1,4 +1,4 @@
-package com.houx.main;
+package com.houx.aop_test.main;
 
 import com.houx.pojo.JuiceMaker2;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

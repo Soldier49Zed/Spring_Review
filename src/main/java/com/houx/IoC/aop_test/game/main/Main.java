@@ -1,11 +1,11 @@
-package com.houx.game.main;
+package com.houx.aop_test.game.main;
 
-import com.houx.game.Interceptor;
-import com.houx.game.ProxyBeanFactory;
-import com.houx.game.interceptor.RoleInterceptor;
-import com.houx.game.pojo.Role;
-import com.houx.game.service.RoleService;
-import com.houx.game.service.impl.RoleServiceImpl;
+import com.houx.aop_test.game.Interceptor;
+import com.houx.aop_test.game.ProxyBeanFactory;
+import com.houx.aop_test.game.interceptor.RoleInterceptor;
+import com.houx.aop_test.game.pojo.Role;
+import com.houx.aop_test.game.service.RoleService;
+import com.houx.aop_test.game.service.impl.RoleServiceImpl;
 
 /**
  * @Author: HouX
