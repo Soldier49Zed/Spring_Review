@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+
+    <!--加载配置文件-->
+    <context:property-placeholder location="database.properties"/>
+
+    <!--数据库连接池-->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${database.driver}"/>
+        <property name="url" value="${database.url}"/>
+        <property name="username" value="${database.username}"/>
+        <property name="password" value="${database.password}"/>
+        <property name="maxActive" value="255"/>
+        <property name="maxIdle" value="5"/>
+        <property name="maxWait" value="10000"/>
+    </bean>
+
+    <!--声明式事务-->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--配置数据源事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--配置事务拦截器-->
+    <bean id="transactionInterceptor" class="org.springframework.transaction.interceptor.TransactionInterceptor">
+        <property name="transactionManager" ref="transactionManager"/>
+
+        <!--配置事务属性-->
+        <property name="transactionAttributes">
+            <props>
+                <!--key代表的是业务方法的正则式匹配,而其内容可以配置各类事务定义参数-->
+                <prop key="insert*">
+                    PROPAGATION_REQUIRED,ISOLATION_READ_UNCOMMITTED
+                </prop>
+
+                <prop key="save*">
+                    PROPAGATION_REQUIRED,ISOLATION_READ_UNCOMMITTED
+                </prop>
+
+                <prop key="add*">
+                    PROPAGATION_REQUIRED,ISOLATION_READ_UNCOMMITTED
+                </prop>
+
+                <prop key="select*">
+                    PROPAGATION_REQUIRED,readOnly
+                </prop>
+
+                <prop key="get*">
+                    PROPAGATION_REQUIRED,readOnly
+                </prop>
+
+                <prop key="find*">
+                    PROPAGATION_REQUIRED,readOnly
+                </prop>
+
+                <prop key="del*">
+                    PROPAGATION_REQUIRED,ISOLATION_READ_UNCOMMITTED
+                </prop>
+
+                <prop key="remove*">
+                    PROPAGATION_REQUIRED,ISOLATION_READ_UNCOMMITTED
+                </prop>
+
+                <prop key="update*">
+                    PROPAGATION_REQUIRED,ISOLATION_READ_UNCOMMITTED
+                </prop>
+
+            </props>
+        </property>
+
+    </bean>
+
+    <!--指名事务拦截器拦截哪些类-->
+    <!--
+        BeanName属性告诉Spring如何拦截类。
+        因为声明为*ServiceImpl,所有关于Service是现实类都会被其拦截,然后interceptorNames则是定义事务拦截器
+        这样对应的类和方法就会被事务管理器所拦截了
+    -->
+    <bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+        <property name="beanNames">
+            <list>
+                <value>*ServiceImpl</value>
+            </list>
+        </property>
+
+        <property name="interceptorNames">
+            <list>
+                <value>transactionInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
+
+</beans>

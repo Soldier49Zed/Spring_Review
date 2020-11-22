@@ -15,8 +15,10 @@
        http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
 
-    <!--加载配置文件-->
-    <context:property-placeholder location="database.properties"/>
+    <!--启用扫描机制，并制定扫描对应的包-->
+    <context:annotation-config />
+
+    <context:component-scan base-package="com.houx.DBTransaction.*"/>
 
     <!--数据库连接池-->
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
@@ -29,85 +31,26 @@
         <property name="maxWait" value="10000"/>
     </bean>
 
-    <!--声明式事务-->
-    <tx:annotation-driven transaction-manager="transactionManager"/>
-
-    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+    <!--集成MyBatis-->
+    <bean id="SqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
+        <!--指定MyBatis配置文件-->
+        <property name="configLocation" value="sqlMapConfig.xml"/>
     </bean>
 
-    <!--配置数据源事务管理器-->
+    <!--事务管理器配置数据源事务-->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
-    <!--配置事务拦截器-->
-    <bean id="transactionInterceptor" class="org.springframework.transaction.interceptor.TransactionInterceptor">
-        <property name="transactionManager" ref="transactionManager"/>
+    <!--使用注解定义事务-->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
 
-        <!--配置事务属性-->
-        <property name="transactionAttributes">
-            <props>
-                <!--key代表的是业务方法的正则式匹配,而其内容可以配置各类事务定义参数-->
-                <prop key="insert*">
-                    PROPAGATION_REQUIRED,ISOLATION_READ_UNCOMMITTED
-                </prop>
-
-                <prop key="save*">
-                    PROPAGATION_REQUIRED,ISOLATION_READ_UNCOMMITTED
-                </prop>
-
-                <prop key="add*">
-                    PROPAGATION_REQUIRED,ISOLATION_READ_UNCOMMITTED
-                </prop>
-
-                <prop key="select*">
-                    PROPAGATION_REQUIRED,readOnly
-                </prop>
-
-                <prop key="get*">
-                    PROPAGATION_REQUIRED,readOnly
-                </prop>
-
-                <prop key="find*">
-                    PROPAGATION_REQUIRED,readOnly
-                </prop>
-
-                <prop key="del*">
-                    PROPAGATION_REQUIRED,ISOLATION_READ_UNCOMMITTED
-                </prop>
-
-                <prop key="remove*">
-                    PROPAGATION_REQUIRED,ISOLATION_READ_UNCOMMITTED
-                </prop>
-
-                <prop key="update*">
-                    PROPAGATION_REQUIRED,ISOLATION_READ_UNCOMMITTED
-                </prop>
-
-            </props>
-        </property>
-
-    </bean>
-
-    <!--指名事务拦截器拦截哪些类-->
-    <!--
-        BeanName属性告诉Spring如何拦截类。
-        因为声明为*ServiceImpl,所有关于Service是现实类都会被其拦截,然后interceptorNames则是定义事务拦截器
-        这样对应的类和方法就会被事务管理器所拦截了
-    -->
-    <bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
-        <property name="beanNames">
-            <list>
-                <value>*ServiceImpl</value>
-            </list>
-        </property>
-
-        <property name="interceptorNames">
-            <list>
-                <value>transactionInterceptor</value>
-            </list>
-        </property>
+    <!--采用自动扫描方式创建mapper bean-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.houx.DBTransaction"/>
+        <property name="SqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <property name="annotationClass" value="org.springframework.stereotype.Repository"/>
     </bean>
 
 
