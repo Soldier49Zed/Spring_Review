@@ -1,4 +1,4 @@
-package com.houx.bean;
+package com.houx.IoC.bean;
 
 import org.springframework.beans.factory.DisposableBean;
 

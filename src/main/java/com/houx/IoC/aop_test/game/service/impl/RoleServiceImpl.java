@@ -1,7 +1,7 @@
-package com.houx.aop_test.game.service.impl;
+package com.houx.IoC.aop_test.game.service.impl;
 
-import com.houx.aop_test.game.pojo.Role;
-import com.houx.aop_test.game.service.RoleService;
+import com.houx.IoC.aop_test.game.pojo.Role;
+import com.houx.IoC.aop_test.game.service.RoleService;
 
 /**
  * @Author: HouX

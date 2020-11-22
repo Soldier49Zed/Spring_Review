@@ -1,7 +1,7 @@
-package com.houx.annotation.config;
+package com.houx.IoC.annotation.config;
 
-import com.houx.annotation.service.impl.RoleServiceImpl;
-import com.houx.annotation.pojo.Role;
+import com.houx.IoC.annotation.service.impl.RoleServiceImpl;
+import com.houx.IoC.annotation.pojo.Role;
 import org.springframework.context.annotation.ComponentScan;
 
 /**
@@ -13,7 +13,7 @@ import org.springframework.context.annotation.ComponentScan;
 //以下三种ComponentScan方式选一种
 
 @ComponentScan(basePackageClasses = {Role.class, RoleServiceImpl.class})
-//@ComponentScan(basePackages = {"com.houx.annotation.pojo", "com.houx.annotation.service"})
-//@ComponentScan(basePackages = {"com.houx.annotation.pojo", "com.houx.annotation.service"}, basePackageClasses = {Role.class, RoleServiceImpl.class})
+//@ComponentScan(basePackages = {"com.houx.IoC.annotation.pojo", "com.houx.IoC.annotation.service"})
+//@ComponentScan(basePackages = {"com.houx.IoC.annotation.pojo", "com.houx.IoC.annotation.service"}, basePackageClasses = {Role.class, RoleServiceImpl.class})
 public class ApplicationConfig {
 }

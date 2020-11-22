@@ -1,4 +1,4 @@
-package com.houx.pojo;
+package com.houx.IoC.pojo;
 
 
 /**

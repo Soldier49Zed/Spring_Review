@@ -1,4 +1,4 @@
-package com.houx.annotation.config;
+package com.houx.IoC.annotation.config;
 
 import java.util.Properties;
 

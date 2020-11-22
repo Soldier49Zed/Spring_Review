@@ -1,7 +1,7 @@
-package com.houx.annotation.controller;
+package com.houx.IoC.annotation.controller;
 
-import com.houx.annotation.pojo.Role;
-import com.houx.annotation.service.RoleService;
+import com.houx.IoC.annotation.pojo.Role;
+import com.houx.IoC.annotation.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;

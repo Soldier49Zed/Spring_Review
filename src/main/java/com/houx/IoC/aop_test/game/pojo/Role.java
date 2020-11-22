@@ -1,4 +1,4 @@
-package com.houx.aop_test.game.pojo;
+package com.houx.IoC.aop_test.game.pojo;
 
 /**
  * @Author: HouX

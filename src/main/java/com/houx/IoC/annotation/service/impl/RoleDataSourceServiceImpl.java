@@ -1,4 +1,4 @@
-package com.houx.annotation.service.impl;
+package com.houx.IoC.annotation.service.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,8 +12,8 @@ import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import com.houx.annotation.pojo.Role;
-import com.houx.annotation.service.RoleDataSourceService;
+import com.houx.IoC.annotation.pojo.Role;
+import com.houx.IoC.annotation.service.RoleDataSourceService;
 
 @Component
 //@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)

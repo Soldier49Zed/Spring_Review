@@ -1,9 +1,9 @@
-package com.houx.aop_test.main;
+package com.houx.IoC.aop_test.main;
 
-import com.houx.annotation.config.ApplicationConfig;
-import com.houx.annotation.pojo.PojoConfig;
-import com.houx.annotation.pojo.Role;
-import com.houx.annotation.service.RoleService;
+import com.houx.IoC.annotation.config.ApplicationConfig;
+import com.houx.IoC.annotation.pojo.PojoConfig;
+import com.houx.IoC.annotation.pojo.Role;
+import com.houx.IoC.annotation.service.RoleService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

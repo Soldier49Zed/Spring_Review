@@ -1,7 +1,7 @@
-package com.houx.annotation.service.impl;
+package com.houx.IoC.annotation.service.impl;
 
-import com.houx.annotation.service.RoleService;
-import com.houx.annotation.pojo.Role;
+import com.houx.IoC.annotation.service.RoleService;
+import com.houx.IoC.annotation.pojo.Role;
 import org.springframework.stereotype.Component;
 
 /**

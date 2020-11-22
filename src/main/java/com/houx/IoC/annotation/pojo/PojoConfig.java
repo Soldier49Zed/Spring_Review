@@ -1,4 +1,4 @@
-package com.houx.annotation.pojo;
+package com.houx.IoC.annotation.pojo;
 
 import org.springframework.context.annotation.ComponentScan;
 
