@@ -7,6 +7,10 @@
 
 <configuration>
 
+    <settings>
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+
     <!--映射配置-->
     <mappers>
         <mapper resource="com/houx/DBTransaction/sqlMapper/RoleMapper.xml"/>

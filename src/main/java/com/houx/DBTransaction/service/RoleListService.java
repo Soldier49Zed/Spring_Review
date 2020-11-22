@@ -9,6 +9,7 @@ import java.util.List;
  * @Date: 2020/11/22
  * @Description:
  */
+
 public interface RoleListService {
     public int insertRoleList(List<Role> roleList);
 }

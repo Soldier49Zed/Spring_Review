@@ -16,10 +16,11 @@
 
 
     <!--启用扫描机制，并制定扫描对应的包-->
-    <context:annotation-config />
-
+    <context:annotation-config/>
     <context:component-scan base-package="com.houx.DBTransaction.*"/>
 
+
+    <context:property-placeholder location="database.properties"/>
     <!--数据库连接池-->
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
         <property name="driverClassName" value="${database.driver}"/>
@@ -49,7 +50,7 @@
     <!--采用自动扫描方式创建mapper bean-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.houx.DBTransaction"/>
-        <property name="SqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <property name="SqlSessionFactoryBeanName" value="SqlSessionFactory"/>
         <property name="annotationClass" value="org.springframework.stereotype.Repository"/>
     </bean>
 

@@ -26,14 +26,14 @@ public class RoleListServiceImpl implements RoleListService {
 
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRED,isolation = Isolation.READ_COMMITTED)
+    @Transactional(propagation = Propagation.REQUIRED, isolation = Isolation.READ_COMMITTED)
     public int insertRoleList(List<Role> roleList) {
 
         int count = 0;
-        for (Role role : roleList){
+        for (Role role : roleList) {
 
             try {
-                count+= roleServic.insertRole(role);
+                count += roleServic.insertRole(role);
             } catch (Exception e) {
                 log.info(e);
             }

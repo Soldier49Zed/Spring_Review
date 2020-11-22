@@ -19,7 +19,7 @@ public class Main {
         RoleListService roleListService = ctx.getBean(RoleListService.class);
 
         List<Role> roleList = new ArrayList<Role>();
-        for (int i = 1;i <= 2; i++){
+        for (int i = 1; i <= 2; i++) {
             Role role = new Role();
             role.setRoleName("role_name_" + i);
             role.setNote("note_" + i);

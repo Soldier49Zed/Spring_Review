@@ -7,6 +7,7 @@ import com.houx.DBTransaction.pojo.Role;
  * @Date: 2020/11/22
  * @Description:
  */
+
 public interface RoleService {
     public int insertRole(Role role);
 }
