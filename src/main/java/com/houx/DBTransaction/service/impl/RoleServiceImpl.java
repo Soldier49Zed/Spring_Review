@@ -22,7 +22,7 @@ public class RoleServiceImpl implements RoleService {
 
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRED, isolation = Isolation.READ_COMMITTED)
+    @Transactional(propagation = Propagation.REQUIRES_NEW, isolation = Isolation.READ_COMMITTED)
     public int insertRole(Role role) {
         return roleMapper.insertRole(role);
     }
