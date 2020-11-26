@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="MyBatis_Review" />
         <module name="Spring_AOP" />
+        <module name="SpringMVC_Review" />
       </profile>
     </annotationProcessing>
   </component>

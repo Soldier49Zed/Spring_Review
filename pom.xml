@@ -21,6 +21,7 @@
     </build>
     <modules>
         <module>../Spring_AOP</module>
+        <module>../SpringMVC_Review</module>
     </modules>
     <packaging>pom</packaging>
 

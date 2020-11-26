@@ -40,5 +40,4 @@ public class RoleController {
         roleService.insertRole(role);
         return role;
     }
-
 }
