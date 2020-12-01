@@ -35,9 +35,6 @@
       <change beforePath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/com/houx/Mapper/TaskMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/com/houx/Mapper/TaskMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/com/houx/Mapper/WorkCardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/com/houx/Mapper/WorkCardMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -58,14 +55,21 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Redis_Review/src/main/java/com/houx/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="101" column="23" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="23" />
+            <state relative-caret-position="266">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#testString#0;class#Main#0" />
                 <element signature="method#testCal#0;class#Main#0" />
-                <element signature="e#2620#2636#0" expanded="true" />
-                <element signature="e#3578#3586#0" expanded="true" />
+                <element signature="method#testRedisHash#0;class#Main#0" />
+                <element signature="e#2612#2628#0" expanded="true" />
+                <element signature="e#3604#3612#0" expanded="true" />
+                <element signature="method#testList#0;class#Main#0" />
+                <element signature="e#4318#4326#0" expanded="true" />
+                <element signature="e#6647#6655#0" expanded="true" />
+                <element signature="method#printList#0;class#Main#0" />
+                <element signature="method#printValueForHash#0;class#Main#0" />
+                <element signature="method#printCurrValue#0;class#Main#0" />
               </folding>
             </state>
           </provider>
@@ -730,15 +734,15 @@
       <workItem from="1606547700355" duration="6921000" />
       <workItem from="1606651445931" duration="4726000" />
       <workItem from="1606749483156" duration="2293000" />
-      <workItem from="1606830198631" duration="1946000" />
+      <workItem from="1606830198631" duration="4560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96050000" />
+    <option name="totallyTimeSpent" value="98664000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
@@ -1137,14 +1141,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Redis_Review/src/main/java/com/houx/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="101" column="23" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="23" />
+        <state relative-caret-position="266">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#testString#0;class#Main#0" />
             <element signature="method#testCal#0;class#Main#0" />
-            <element signature="e#2620#2636#0" expanded="true" />
-            <element signature="e#3578#3586#0" expanded="true" />
+            <element signature="method#testRedisHash#0;class#Main#0" />
+            <element signature="e#2612#2628#0" expanded="true" />
+            <element signature="e#3604#3612#0" expanded="true" />
+            <element signature="method#testList#0;class#Main#0" />
+            <element signature="e#4318#4326#0" expanded="true" />
+            <element signature="e#6647#6655#0" expanded="true" />
+            <element signature="method#printList#0;class#Main#0" />
+            <element signature="method#printValueForHash#0;class#Main#0" />
+            <element signature="method#printCurrValue#0;class#Main#0" />
           </folding>
         </state>
       </provider>
