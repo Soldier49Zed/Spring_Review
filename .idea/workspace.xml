@@ -35,12 +35,17 @@
       <change beforePath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/com/houx/Mapper/TaskMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/com/houx/Mapper/TaskMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/com/houx/Mapper/WorkCardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/com/houx/Mapper/WorkCardMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../MyBatis_Review/target/" />
     <ignored path="$PROJECT_DIR$/../Spring_AOP/target/" />
     <ignored path="$PROJECT_DIR$/../SpringMVC_Review/target/" />
+    <ignored path="$PROJECT_DIR$/../Redis_Review/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,44 +55,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Redis_Review/src/main/java/com/houx/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParamsController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/controller/ParamsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
+            <state relative-caret-position="442">
+              <caret line="101" column="23" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#testString#0;class#Main#0" />
+                <element signature="method#testCal#0;class#Main#0" />
+                <element signature="e#2620#2636#0" expanded="true" />
+                <element signature="e#3578#3586#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoleService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/service/RoleService.java">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Redis_Review/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/resources/com/houx/mvc1126/mapper/RoleMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="126">
+              <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -101,10 +89,10 @@
         <option value="Interface" />
         <option value="spring-config" />
         <option value="mapper" />
-        <option value="applicationContext" />
         <option value="spring-beans.schema" />
         <option value="database" />
         <option value="FxmlFile" />
+        <option value="applicationContext" />
         <option value="Class" />
       </list>
     </option>
@@ -120,6 +108,7 @@
       <find>DBTransaction</find>
       <find>jackson-core</find>
       <find>jstl</find>
+      <find>log</find>
     </findStrings>
     <replaceStrings>
       <replace>houx</replace>
@@ -131,19 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../Spring_AOP/src/main/resources/database.properties" />
-        <option value="$PROJECT_DIR$/../Spring_AOP/src/main/resources/spring-config2.xml" />
-        <option value="$PROJECT_DIR$/../Spring_AOP/src/main/resources/sqlMapConfig.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/houx/DBTransaction/config/JavaConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/houx/DBTransaction/pojo/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/houx/DBTransaction/sqlMapper/RoleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/houx/DBTransaction/mapper/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/houx/DBTransaction/service/RoleListService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/houx/DBTransaction/service/impl/RoleListServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/houx/DBTransaction/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
         <option value="$PROJECT_DIR$/../MyBatis_Review/src/main/java/com/houx/Main/Main.java" />
@@ -163,13 +139,10 @@
         <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/service/RoleService.java" />
         <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/service/impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/jsp/roleDetails.jsp" />
-        <option value="$PROJECT_DIR$/../SpringMVC_Review/pom.xml" />
         <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/controller/RoleController.java" />
         <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/form.jsp" />
         <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/pojo/Role.java" />
-        <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/dao/RoleDao.java" />
-        <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/dao/RoleDao.java" />
         <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/controller/RoleController.java" />
         <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/controller/MyController.java" />
         <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/service/impl/RoleServiceImpl.java" />
@@ -182,6 +155,22 @@
         <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/service/RoleService.java" />
         <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/controller/ParamsController.java" />
+        <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/jsp/request.jsp" />
+        <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/interceptor/RoleInterceptor.java" />
+        <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/../SpringMVC_Review/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/pojo/Transaction.java" />
+        <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/controller/AttributeController.java" />
+        <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/validator/TransactionValidator.java" />
+        <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/controller/ValidateController.java" />
+        <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/dao/RoleDao.java" />
+        <option value="$PROJECT_DIR$/../Redis_Review/src/main/java/com/houx/jedis.java" />
+        <option value="$PROJECT_DIR$/../Redis_Review/src/main/java/com/houx/JedisTest.java" />
+        <option value="$PROJECT_DIR$/../Redis_Review/src/main/java/com/houx/pojo/Role.java" />
+        <option value="$PROJECT_DIR$/../Redis_Review/pom.xml" />
+        <option value="$PROJECT_DIR$/../Redis_Review/src/main/java/com/houx/main/Main111.java" />
+        <option value="$PROJECT_DIR$/../Redis_Review/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/../Redis_Review/src/main/java/com/houx/main/Main.java" />
       </list>
     </option>
   </component>
@@ -230,63 +219,26 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="980" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <hideEmptyPackages PackagesPane="true" ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
               <item name="Spring_Review" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SpringMVC_Review" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SpringMVC_Review" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SpringMVC_Review" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="houx" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SpringMVC_Review" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="houx" type="1f31426a:PackageElementNode" />
-              <item name="mvc1126" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SpringMVC_Review" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="houx" type="1f31426a:PackageElementNode" />
-              <item name="mvc1126" type="1f31426a:PackageElementNode" />
-              <item name="service" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SpringMVC_Review" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="houx" type="1f31426a:PackageElementNode" />
-              <item name="mvc1126" type="1f31426a:PackageElementNode" />
-              <item name="service" type="1f31426a:PackageElementNode" />
-              <item name="impl" type="1f31426a:PackageElementNode" />
+              <item name="Redis_Review" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -297,181 +249,59 @@
           <expand>
             <path>
               <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
+              <item name="Redis_Review" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
+              <item name="Redis_Review" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
+              <item name="Redis_Review" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
+              <item name="Redis_Review" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
+              <item name="Redis_Review" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="houx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
+              <item name="Redis_Review" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="houx" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc1126" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
+              <item name="Redis_Review" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="houx" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc1126" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="houx" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc1126" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="houx" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc1126" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="houx" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc1126" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="houx" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc1126" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
+              <item name="Redis_Review" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="houx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="houx" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc1126" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="houx" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc1126" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_Review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -569,6 +399,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -590,11 +421,11 @@
       <recent name="com.houx.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Java\JavaEE_Review\SpringMVC_Review\src\main\java\com\houx\mvc1126" />
-      <recent name="E:\Java\JavaEE_Review\SpringMVC_Review\src\main\webapp" />
-      <recent name="E:\Java\JavaEE_Review\SpringMVC_Review\src\main\java\com\houx\basic" />
-      <recent name="E:\Java\JavaEE_Review\SpringMVC_Review\src\main\resources\com\houx\mapper" />
+      <recent name="E:\Java\JavaEE_Review\Redis_Review\src\main\java\com\houx\pojo" />
+      <recent name="E:\Java\JavaEE_Review\Redis_Review" />
       <recent name="E:\Java\JavaEE_Review\SpringMVC_Review\src\main\java\com\houx" />
+      <recent name="E:\Java\JavaEE_Review\SpringMVC_Review\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\Java\JavaEE_Review\SpringMVC_Review\src\main\java\com\houx\mvc1126" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.houx.mvc1126.pojo" />
@@ -623,7 +454,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.houx.database_test.main.Main" />
       <module name="Spring_AOP" />
@@ -657,6 +488,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.houx.main.Main" />
+      <module name="Redis_Review" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.houx.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.houx.IoC.aop_test.main.Main" />
       <module name="Spring_Review" />
@@ -668,13 +510,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.houx.IoC.aop_test.main.Main2" />
-      <module name="Spring_AOP" />
+    <configuration name="Main111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.houx.main.Main111" />
+      <module name="Redis_Review" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.houx.IoC.aop_test.multi.main.*" />
+          <option name="PATTERN" value="com.houx.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -838,19 +680,18 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main111" />
       <item itemvalue="Application.Main3" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main111" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -885,12 +726,16 @@
       <workItem from="1606145027588" duration="1794000" />
       <workItem from="1606217687527" duration="12293000" />
       <workItem from="1606317390560" duration="1221000" />
-      <workItem from="1606393575489" duration="10530000" />
+      <workItem from="1606393575489" duration="10773000" />
+      <workItem from="1606547700355" duration="6921000" />
+      <workItem from="1606651445931" duration="4726000" />
+      <workItem from="1606749483156" duration="2293000" />
+      <workItem from="1606830198631" duration="1946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79921000" />
+    <option name="totallyTimeSpent" value="96050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
@@ -915,11 +760,12 @@
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.49932525" visible="true" weight="0.3580247" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49932525" weight="0.46296296" />
       <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4979757" weight="0.3148148" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4979757" weight="0.537037" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.29892036" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20175439" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -939,125 +785,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config_DBTransaction.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="66" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Spring_AOP/src/main/resources/sqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Spring_AOP/src/main/resources/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/houx/DBTransaction/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/houx/DBTransaction/mapper/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/houx/DBTransaction/pojo/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/houx/DBTransaction/service/impl/RoleListServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyBatis_Review/src/main/java/com/houx/Main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/houx/DBTransaction/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/houx/DBTransaction/service/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/houx/DBTransaction/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="148" column="19" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="148" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE.jar!/org/springframework/web/servlet/HttpServletBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9857">
-          <caret line="139" column="17" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/resources/database.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1078,23 +809,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/config/MyWebAppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="31" lean-forward="true" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#857#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/config/MyWebAppInitializer.java" />
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/config/WebConfig.java" />
     <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mapper/RoleMapper.xml" />
     <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1177,22 +893,12 @@
     <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/resources/database.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1811">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/jsp/roleDetails.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1208,77 +914,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/pojo/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/mapper/RoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/pojo/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/dao/RoleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/controller/MyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/service/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/mapper/RoleMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/pojo/Role.java" />
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/controller/MyController.java" />
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/controller/RoleController.java" />
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/service/RoleService.java" />
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/service/impl/RoleServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
@@ -1297,15 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1313,70 +945,206 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/dao/RoleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/service/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1626#1627#0" expanded="true" />
-            <element signature="e#1673#1674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/resources/com/houx/mvc1126/mapper/RoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/pojo/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/dao/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/service/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/controller/ParamsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/jsp/request.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/jsp/sessionAttribute.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/pojo/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/interceptor/RoleInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/jsp/validate.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/controller/AttributeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/validator/TransactionValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/basic/dao/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="242" selection-start-line="19" selection-end-line="242" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/controller/ValidateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.git/info/exclude">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Redis_Review/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Redis_Review/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Redis_Review/src/main/java/com/houx/pojo/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Redis_Review/src/main/resources/applicationContext111.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Redis_Review/src/main/java/com/houx/main/Main111.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="48" column="54" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2035#2036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Redis_Review/src/main/java/com/houx/jedis/JedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/controller/ParamsController.java">
+    <entry file="file://$PROJECT_DIR$/../Redis_Review/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
+        <state relative-caret-position="126">
+          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Redis_Review/src/main/java/com/houx/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="101" column="23" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#testString#0;class#Main#0" />
+            <element signature="method#testCal#0;class#Main#0" />
+            <element signature="e#2620#2636#0" expanded="true" />
+            <element signature="e#3578#3586#0" expanded="true" />
           </folding>
         </state>
       </provider>
