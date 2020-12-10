@@ -5,8 +5,10 @@
     <file type="web" url="file://$PROJECT_DIR$/../MyBatis_Review" />
     <file type="web" url="file://$PROJECT_DIR$/../Redis_Review" />
     <file type="web" url="file://$PROJECT_DIR$/../Spring_AOP" />
+    <file type="web" url="file://$PROJECT_DIR$/../Spring_Redis_Review" />
     <file type="web" url="file://$PROJECT_DIR$" />
     <file type="web" url="file://$PROJECT_DIR$/../SpringMVC_Review" />
+    <file type="web" url="file://$PROJECT_DIR$/../SSM_Redis" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
