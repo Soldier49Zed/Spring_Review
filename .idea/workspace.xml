@@ -36,11 +36,6 @@
       <change beforePath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/com/houx/Mapper/TaskMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/com/houx/Mapper/TaskMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/com/houx/Mapper/WorkCardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/com/houx/Mapper/WorkCardMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis_Review/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,20 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="RedPacket.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/resources/com/houx/mapper/RedPacket.xml">
+      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/config/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedPacketDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/dao/RedPacketDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="30" selection-start-line="30" selection-end-line="31" />
+            <state relative-caret-position="216">
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,41 +66,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedPacketService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/RedPacketService.java">
+      <file leaf-file-name="UserRedPacketServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/impl/UserRedPacketServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedPacketServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/impl/RedPacketServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="39" column="92" lean-forward="true" selection-start-line="39" selection-start-column="92" selection-end-line="39" selection-end-column="92" />
+            <state relative-caret-position="539">
+              <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#6142#6143#0" expanded="true" />
+                <element signature="e#6169#6170#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedPacket.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/pojo/RedPacket.java">
+      <file leaf-file-name="UserRedPacketService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/UserRedPacketService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-                <element signature="e#1021#1022#0" expanded="true" />
-                <element signature="e#1061#1062#0" expanded="true" />
-                <element signature="e#1538#1539#0" expanded="true" />
-                <element signature="e#1568#1569#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="551">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -160,8 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/jsp/request.jsp" />
-        <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/interceptor/RoleInterceptor.java" />
         <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/../SpringMVC_Review/pom.xml" />
         <option value="$PROJECT_DIR$/../SpringMVC_Review/src/main/java/com/houx/mvc1126/pojo/Transaction.java" />
@@ -197,20 +165,22 @@
         <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/pojo/UserRedPacket.java" />
         <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/mapper/RedPacket.xml" />
         <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/mapper/UserRedPacket.xml" />
-        <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/UserRedPacketService.java" />
         <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/config/WebAppInitializer.java" />
-        <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/../SSM_Redis/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/../SSM_Redis/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/controller/UserRedPacketController.java" />
         <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/dao/UserRedPacketDao.java" />
-        <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/impl/UserRedPacketServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/config/RootConfig.java" />
         <option value="$PROJECT_DIR$/../SSM_Redis/src/main/resources/com/houx/mapper/RedPacket.xml" />
         <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/dao/RedPacketDao.java" />
         <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/RedPacketService.java" />
-        <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/impl/RedPacketServiceImpl.java" />
         <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/pojo/RedPacket.java" />
+        <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/impl/RedPacketServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/controller/UserRedPacketController.java" />
+        <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/config/RootConfig.java" />
+        <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/RedisRedPacketService.java" />
+        <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/impl/RedisRedPacketServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/UserRedPacketService.java" />
+        <option value="$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/impl/UserRedPacketServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -290,6 +260,20 @@
               <item name="SSM_Redis" type="616d4139:PackageViewModuleNode" />
               <item name="com" type="1f31426a:PackageElementNode" />
               <item name="houx" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Spring_Review" type="58d84e3e:PackageViewProjectNode" />
+              <item name="SSM_Redis" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="houx" type="1f31426a:PackageElementNode" />
+              <item name="config" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Spring_Review" type="58d84e3e:PackageViewProjectNode" />
+              <item name="SSM_Redis" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="houx" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="Spring_Review" type="58d84e3e:PackageViewProjectNode" />
@@ -932,15 +916,15 @@
       <workItem from="1607336058674" duration="7757000" />
       <workItem from="1607435240330" duration="6893000" />
       <workItem from="1607523652734" duration="5106000" />
-      <workItem from="1607610443593" duration="722000" />
+      <workItem from="1607610443593" duration="4275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132962000" />
+    <option name="totallyTimeSpent" value="136515000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
@@ -963,7 +947,7 @@
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Run" order="11" sideWeight="0.49865046" weight="0.72615385" />
       <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4979757" weight="0.42592594" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4979757" weight="0.42461538" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2780027" />
       <window_info anchor="bottom" id="Bean Validation" order="16" sideWeight="0.5013495" side_tool="true" weight="0.4323077" />
@@ -991,14 +975,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Redis_Review/src/main/java/com/houx/jedis/JedisTest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.1.RELEASE/spring-data-redis-1.8.1.RELEASE.jar!/org/springframework/data/redis/core/SessionCallback.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.1.RELEASE/spring-data-redis-1.8.1.RELEASE.jar!/org/springframework/data/redis/core/RedisOperations.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1093,6 +1069,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,6 +1093,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="995">
           <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1232,22 +1214,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/UserRedPacketService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SSM_Redis/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/config/WebAppInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1285,68 +1253,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/config/RootConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/dao/UserRedPacketDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/impl/UserRedPacketServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/controller/UserRedPacketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/resources/com/houx/mapper/RedPacket.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/dao/RedPacketDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="30" selection-start-line="30" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/RedPacketService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/impl/RedPacketServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="39" column="92" lean-forward="true" selection-start-line="39" selection-start-column="92" selection-end-line="39" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1365,6 +1275,108 @@
             <element signature="e#1061#1062#0" expanded="true" />
             <element signature="e#1538#1539#0" expanded="true" />
             <element signature="e#1568#1569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/impl/RedPacketServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/RedPacketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/dao/RedPacketDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" selection-start-line="30" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/controller/UserRedPacketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1288#1304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/config/RootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/resources/com/houx/mapper/RedPacket.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/impl/RedisRedPacketServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="131" column="32" selection-start-line="131" selection-start-column="32" selection-end-line="131" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1383#1398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/RedisRedPacketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/UserRedPacketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SSM_Redis/src/main/java/com/houx/service/impl/UserRedPacketServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6142#6143#0" expanded="true" />
+            <element signature="e#6169#6170#0" expanded="true" />
           </folding>
         </state>
       </provider>
